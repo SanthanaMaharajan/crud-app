@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.bookingList{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.bookingFirst::after,.bookingSecond::after{
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  display: inline-block;
+}
+.bookingFirst ul{
+  background-color: #f8f4f4;
+}
+.bookingBus{
+  padding-top: 7rem;
+}
+.symbol{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+
+}
+.symbol img{
+  width: 100%;
+  height: 100%;
+}
+.bookingDate{
+  display: flex;
+  align-items: center;
+}
+.bookingSecond{
+  display: flex;
+  flex-wrap: wrap;
+}
+.bookingPlace p{
+  display: flex;
+  padding: 15px ;
+}
+.bookingFirst ul, .bookingFirst p{
+  padding: 5px 15px;
+  font-size: 12px;
+}
+.modifyBtn{
+  border: 1px solid #3e3e52;
+  border-radius: 3px;
+  background-color: #f8f4f4;
+  padding: 5px 25px;
+  display: inline-block;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.modifyBtn:hover{
+  font-weight: bold;
+  cursor: pointer;
+}
+.arrowIcon{
+ margin: 0  15px;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+}
+.row{
+  width: 95%;
+  display: flex;
+  margin: 15px auto auto auto;
+  background-color: transparent;
+}
+.coupons{
+  width: 100%;
+} 
+.couponsCnt{
+  display: flex;
+  padding: 5px;
+  width: 100%;
+ 
+}
+.carousel{
+  display: flex;
+  justify-content:center;
+  align-items: start;
+  position: absolute;
+  top: -20rem;
+}
+.buses{
+  width: 75%;
+  margin: auto;
+  cursor: pointer;
+  background-color: transparent;
+  box-shadow: none!important;
+}
+.filter{
+  width: 15%!important;
+  line-height: 2;
+}
+.filter input[type=checkbox]{
+  cursor: pointer;
+}
+.filIcon{
+  width: 12%;
+  color: #ccc!important;
+  padding: 0 5px;
+}
+.aminityIcon{
+  width: 15%;
+  color: #ccc!important;
+  padding: 0 5px;
+}
+.aminityBtns{
+  background-color: transparent!important;
+  color: #000!important;
+  border: 1px solid #000;
+  width: 70%;
+  padding: 2px !important;
+  text-align: left;
+  font-size: 13px;
+  border-radius: 5px;
+}
